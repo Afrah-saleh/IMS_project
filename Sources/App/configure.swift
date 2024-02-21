@@ -15,10 +15,10 @@ public func configure(_ app: Application) async throws {
         database: "ims",
         tls: .prefer(try .init(configuration: .clientDefault)))) ,
                       as: .psql)
-
+    app.migrations.add(CreateCustomers())
     app.migrations.add(CreateOrder())
     app.migrations.add(CreateProduct())
-    app.migrations.add(CreateCustomers())
+    
 
     // register routes
     try app .register(collection: ordercolcting())
