@@ -50,39 +50,49 @@ struct ordercolcting : RouteCollection {
     
 
     func updateOrder(req: Request) async throws -> Order {
+        
         guard let order = try await Order.find(req.parameters.get("id"), on: req.db) else {
+            print("test1")
             throw Abort(.notFound)
         }
         
-        let updatedOrder = try req.content.decode(Order.self)
-        
-        // Fetch the product
-        guard let product = try await Product.find(order.$product_id.id, on: req.db) else {
-            throw Abort(.notFound, reason: "Product not found")
+        do {
+            let updatedOrder = try req.content.decode(Order.self)
+            
+            // Fetch the product
+            guard let product = try await Product.find(order.$product_id.id, on: req.db) else {
+                print("test1")
+                
+                throw Abort(.notFound, reason: "Product not found")
+            }
+            
+            // Calculate the difference in ordered quantity
+              let quantityDifference = updatedOrder.quantity_ordered - order.quantity_ordered
+            
+                    // Ensure there's enough quantity in stock for the update
+                    if product.quantity_in_stock < quantityDifference {
+                        throw Abort(.badRequest, reason: "Not enough quantity in stock to fulfill the updated order")
+                    }
+            
+            // Update the quantity in stock
+              product.quantity_in_stock -= quantityDifference
+            
+            // Update the order
+                //    order.customer_id = updatedOrder.customer_id
+                //   order.product_id = updatedOrder.product_id
+               //   order.order_date = updatedOrder.order_date
+                 order.status = updatedOrder.status
+            order.quantity_ordered = updatedOrder.quantity_ordered
+            
+            // Save both the updated order and the product
+            try await order.save(on: req.db)
+            try await product.save(on: req.db)
+            
         }
-        
-        // Calculate the difference in ordered quantity
-        let quantityDifference = updatedOrder.quantity_ordered - order.quantity_ordered
-        
-        // Ensure there's enough quantity in stock for the update
-        if product.quantity_in_stock < quantityDifference {
-            throw Abort(.badRequest, reason: "Not enough quantity in stock to fulfill the updated order")
+        catch let error {
+            print(error)
+            
         }
-        
-        // Update the quantity in stock
-        product.quantity_in_stock -= quantityDifference
-        
-        // Update the order
-        order.customer_id = updatedOrder.customer_id
-        order.product_id = updatedOrder.product_id
-        order.order_date = updatedOrder.order_date
-        order.status = updatedOrder.status
-        order.quantity_ordered = updatedOrder.quantity_ordered
-        
-        // Save both the updated order and the product
-        try await order.save(on: req.db)
-        try await product.save(on: req.db)
-        
         return order
     }
 
