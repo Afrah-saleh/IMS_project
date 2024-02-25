@@ -1,4 +1,4 @@
-<img width="1277" alt="Screenshot 2024-02-25 at 11 23 10 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/ecb1c2ee-394c-44cd-8377-c62bf00d2d4b"># Inventory Management System
+Inventory Management System
 
 *******************************************
 ## Introduction
