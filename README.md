@@ -106,21 +106,21 @@ The following schema represents the structure of the database used in the Invent
   </tr>
 </table>
 
-- **Update Order**
+- **Delelt order**
   
   <table role="presentation">
   <tr>
     <td align="center">
    <img width="600" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
-      <br>Preduct before update
+      <br>order before update
     </td>
     <td align="center">
    <img width="600" alt="Screenshot 2024-02-25 at 11 47 55 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/5e655073-7ca9-427b-991f-7106da5e4d4d">
-      <br>update product
+      <br>order product
     </td>
         <td align="center">
   <img width="600" alt="Screenshot 2024-02-25 at 11 48 23 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/d9ce0672-cdc0-4d19-8d32-c616feddfc4d">
-      <br>Products after update
+      <br>order after update
     </td>
   </tr>
 </table>
