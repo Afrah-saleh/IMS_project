@@ -42,6 +42,13 @@ The following schema represents the structure of the database used in the Invent
 *******************************************
 ## HOW TO USE IT 
 *******************************************
+### Prerequisites
+
+Ensure you have the following installed:
+- Xcode (for macOS)
+- Swift
+- PostgreSQL
+- Postman (for API testing)
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/yourusername/inventory-management-system.git`
@@ -49,9 +56,11 @@ The following schema represents the structure of the database used in the Invent
 3. Install dependencies: `swift package resolve`
 
 ## Configuration
-1. Set up a PostgreSQL database.
-2. Configure the database connection in the `Config` folder.
-3. Run database migrations: `swift run App migrate`
+1. Initialize a PostgreSQL database according to the provided schema.
+2. Update the database configuration settings in the `Config` directory.
+   
+## Running Migrations
+1- Apply database migrations to prepare your database: `swift run App migrate`
 
 ## Usage
 1. Start the server: `swift run`
