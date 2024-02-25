@@ -14,26 +14,31 @@ An app that helps businesses and inventory managers who want to streamline inven
 ## Database Schema
 The following schema represents the structure of the database used in the Inventory Management System:
 
-
 ### Customers Table
-- customer_id (Primary Key, UUID)
-- name (String)
-- email (String)
-- address (String)
-- phone_number (String)
+| Column          | Data Type        | Constraints      |
+|-----------------|------------------|------------------|
+| customer_id     | UUID             | Primary Key      |
+| name            | String           |                  |
+| email           | String           |                  |
+| address         | String           |                  |
+| phone_number    | String           |                  |
 
 ### Products Table
-- product_id (Primary Key, UUID)
-- name (String)
-- description (String)
-- price (Decimal)
-- quantity_in_stock (Integer)
+| Column               | Data Type        | Constraints      |
+|----------------------|------------------|------------------|
+| product_id           | UUID             | Primary Key      |
+| name                 | String           |                  |
+| description          | String           |                  |
+| price                | Decimal          |                  |
+| quantity_in_stock    | Integer          |                  |
 
 ### Orders Table
-- order_id (Primary Key, UUID)
-- customer_id (Foreign Key to Customers table, UUID)
-- order_date (Date)
-- status (String)
+| Column            | Data Type        | Constraints      |
+|-------------------|------------------|------------------|
+| order_id          | UUID             | Primary Key      |
+| customer_id       | UUID             | Foreign Key      |
+| order_date        | Date             |                  |
+| status            | String           |                  |
   
 ## Technologies Used
 - **Backend**: Swift with the Vapor framework to create a reliable and scalable server-side application.
