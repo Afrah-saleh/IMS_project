@@ -60,11 +60,11 @@ The following schema represents the structure of the database used in the Invent
 <table role="presentation">
   <tr>
     <td align="center">
-      <img width="600" alt="Screenshot 2024-02-25 at 11 23 10 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/49c829fb-7a94-4ed8-9457-706354160461">
+      <img width="700" alt="Screenshot 2024-02-25 at 11 23 10 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/49c829fb-7a94-4ed8-9457-706354160461">
       <br>Add New Customer
     </td>
     <td align="center">
-      <img width="600" alt="Screenshot 2024-02-25 at 11 23 32 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73e9cffc-ef92-4a0a-aaa8-c89a13d30039">
+      <img width="700" alt="Screenshot 2024-02-25 at 11 23 32 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73e9cffc-ef92-4a0a-aaa8-c89a13d30039">
       <br>new Customer in postgress
     </td>
   </tr>
@@ -72,19 +72,18 @@ The following schema represents the structure of the database used in the Invent
 
 
 - **Delelt Producte**
-  
 <table role="presentation">
   <tr>
     <td align="center">
-    <img width="600" alt="Screenshot 2024-02-25 at 11 42 49 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/ff0f73fa-908c-4b66-8b3f-2714a21bc036">
+    <img width="700" alt="Screenshot 2024-02-25 at 11 42 49 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/ff0f73fa-908c-4b66-8b3f-2714a21bc036">
       <br>Preducts before delete
     </td>
     <td align="center">
-      <img width="600" alt="Screenshot 2024-02-25 at 11 43 37 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73a116b8-12e0-41be-ae68-5a0be2f45be1">
+      <img width="700" alt="Screenshot 2024-02-25 at 11 43 37 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73a116b8-12e0-41be-ae68-5a0be2f45be1">
       <br>Delete product
     </td>
         <td align="center">
-      <img width="600" alt="Screenshot 2024-02-25 at 11 43 59 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/88dc3c6f-2462-47b1-9404-eae14914c965">
+      <img width="700" alt="Screenshot 2024-02-25 at 11 43 59 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/88dc3c6f-2462-47b1-9404-eae14914c965">
       <br>Products after delete
     </td>
   </tr>
@@ -92,34 +91,32 @@ The following schema represents the structure of the database used in the Invent
 
 
 - **Get All Orders**
-
   <table role="presentation">
   <tr>
     <td align="center">
-      <img width="600" alt="Screenshot 2024-02-25 at 11 45 02 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/493359e3-eff1-42a2-bbcc-915baaa4c97e">
+      <img width="700" alt="Screenshot 2024-02-25 at 11 45 02 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/493359e3-eff1-42a2-bbcc-915baaa4c97e">
       <br>Call all orders
     </td>
     <td align="center">
-      <img width="600" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
+      <img width="700" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
       <br>Orders in postgress
     </td>
   </tr>
 </table>
 
 - **Update order**
-  
   <table role="presentation">
   <tr>
     <td align="center">
-   <img width="600" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
+   <img width="700" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
       <br>order before update
     </td>
     <td align="center">
-   <img width="600" alt="Screenshot 2024-02-25 at 11 47 55 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/5e655073-7ca9-427b-991f-7106da5e4d4d">
+   <img width="700" alt="Screenshot 2024-02-25 at 11 47 55 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/5e655073-7ca9-427b-991f-7106da5e4d4d">
       <br>order product
     </td>
         <td align="center">
-  <img width="600" alt="Screenshot 2024-02-25 at 11 48 23 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/d9ce0672-cdc0-4d19-8d32-c616feddfc4d">
+  <img width="700" alt="Screenshot 2024-02-25 at 11 48 23 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/d9ce0672-cdc0-4d19-8d32-c616feddfc4d">
       <br>order after update
     </td>
   </tr>
