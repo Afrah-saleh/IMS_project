@@ -104,6 +104,8 @@ The following schema represents the structure of the database used in the Invent
   </tr>
 </table>
 
+
+
 - **Update order**
   <table role="presentation">
   <tr>
