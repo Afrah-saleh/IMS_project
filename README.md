@@ -1,6 +1,8 @@
-# Inventory Management System
+<img width="1277" alt="Screenshot 2024-02-25 at 11 23 10 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/ecb1c2ee-394c-44cd-8377-c62bf00d2d4b"># Inventory Management System
 
+*******************************************
 ## Introduction
+*******************************************
 The Inventory Management System (IMS) is a comprehensive tool designed to help businesses and inventory managers maintain and track their inventory, manage customer orders, and streamline their product management processes. Built with efficiency and usability in mind, our IMS offers a robust solution for optimizing stock levels and enhancing operational workflows.
 
 *******************************************
@@ -12,9 +14,9 @@ An app that helps businesses and inventory managers who want to streamline inven
 *******************************************
 ## FEATURES
 *******************************************
-- **Product Management**: Efficiently manage your product lifecycle by adding, viewing, updating, and deleting inventory items.
-- **Order Processing**: Seamlessly create and manage orders, ensuring customer satisfaction.
-- **Customer Management**: Maintain a central repository of customer information and track their orders.
+- **Product Management:** Add, view, update, and delete products in the inventory.
+- **Order Processing:** Create, view, update, and delete orders placed by customers.
+- **Customer Management:** Manage customer information and track their orders.
 
 
 *******************************************
@@ -50,11 +52,22 @@ The following schema represents the structure of the database used in the Invent
 | status            | String           |                  |
   
 *******************************************
+## SCREAN SHOOT
+*******************************************
+- **Create New Customer**
+  
+<img width="1277" alt="Screenshot 2024-02-25 at 11 23 10 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/49c829fb-7a94-4ed8-9457-706354160461">
+<img width="951" alt="Screenshot 2024-02-25 at 11 23 32 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73e9cffc-ef92-4a0a-aaa8-c89a13d30039">
+
+- **Delelt Producte**
+- **Get All Orders**
+- **Update Order**
+
+*******************************************
 ## TECHNOLOGY USED
 *******************************************
 - **Backend**: Swift with the Vapor framework to create a reliable and scalable server-side application.
 - **Database**: PostgreSQL for robust, enterprise-grade database management.
-- **Frontend:** (If applicable)
 
 *******************************************
 ## HOW TO USE IT 
