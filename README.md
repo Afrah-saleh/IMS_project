@@ -92,7 +92,7 @@ The following schema represents the structure of the database used in the Invent
 
 
 - **Get All Orders**
-  
+
   <table role="presentation">
   <tr>
     <td align="center">
@@ -105,7 +105,6 @@ The following schema represents the structure of the database used in the Invent
     </td>
   </tr>
 </table>
-
 
 - **Update Order**
   
