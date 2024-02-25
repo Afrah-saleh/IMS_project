@@ -1,7 +1,7 @@
 # Inventory Management System
 
 ## Introduction
-The Inventory Management System is a web application designed to help businesses manage their inventory effectively. It allows users to track products, orders, customers, and warehouses efficiently.
+The Inventory Management System designed to help businesses manage their inventory effectively. It allows users to track products, orders, customers, and warehouses efficiently.
 
 ## App statement
 An app that helps businesses and inventory managers who want to streamline inventory operations and optimize stock levels by tracking products and managing orders effortlessly.
