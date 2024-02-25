@@ -54,22 +54,15 @@ The following schema represents the structure of the database used in the Invent
 *******************************************
 ## SCREAN SHOOT
 *******************************************
-- **Create New Customer**
-  <div style="display: flex; justify-content: space-between;">
-   <img src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/49c829fb-7a94-4ed8-9457-706354160461" alt="Screenshot 1" width="400"/>
-   <img src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73e9cffc-ef92-4a0a-aaa8-c89a13d30039" alt="Screenshot 1" width="400"/>
-</div>
-
-
 <table role="presentation">
   <tr>
     <td align="center">
       <img width="600" alt="Screenshot 2024-02-25 at 11 23 10 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/49c829fb-7a94-4ed8-9457-706354160461">
-      <br>Create New Customer
+      <br>**Create New Customer
     </td>
     <td align="center">
       <img width="600" alt="Screenshot 2024-02-25 at 11 23 32 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73e9cffc-ef92-4a0a-aaa8-c89a13d30039">
-      <br>Another Feature
+      <br>** Added Customer 
     </td>
   </tr>
 </table>
