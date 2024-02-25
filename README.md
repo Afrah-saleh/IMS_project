@@ -68,8 +68,18 @@ The following schema represents the structure of the database used in the Invent
 </table>
 
 - **Delelt Producte**
+<img width="924" alt="Screenshot 2024-02-25 at 11 42 49 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/ff0f73fa-908c-4b66-8b3f-2714a21bc036">
+<img width="1277" alt="Screenshot 2024-02-25 at 11 43 37 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/73a116b8-12e0-41be-ae68-5a0be2f45be1">
+<img width="926" alt="Screenshot 2024-02-25 at 11 43 59 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/88dc3c6f-2462-47b1-9404-eae14914c965">
+
 - **Get All Orders**
+  <img width="1292" alt="Screenshot 2024-02-25 at 11 45 02 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/493359e3-eff1-42a2-bbcc-915baaa4c97e">
+  <img width="1227" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
+
 - **Update Order**
+ <img width="1227" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
+ <img width="1288" alt="Screenshot 2024-02-25 at 11 47 55 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/5e655073-7ca9-427b-991f-7106da5e4d4d">
+<img width="1232" alt="Screenshot 2024-02-25 at 11 48 23 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/d9ce0672-cdc0-4d19-8d32-c616feddfc4d">
 
 *******************************************
 ## TECHNOLOGY USED
