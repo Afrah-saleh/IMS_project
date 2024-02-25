@@ -54,8 +54,7 @@ The following schema represents the structure of the database used in the Invent
 *******************************************
 ## SCREAN SHOOT
 *******************************************
-
-- **Create New Customer**
+**Create New Customer**
   
 <table role="presentation">
   <tr>
@@ -70,8 +69,7 @@ The following schema represents the structure of the database used in the Invent
   </tr>
 </table>
 
-
-- **Delelt Producte**
+**Delelt Producte**
 <table role="presentation">
   <tr>
     <td align="center">
@@ -89,8 +87,7 @@ The following schema represents the structure of the database used in the Invent
   </tr>
 </table>
 
-
-- **Get All Orders**
+**Get All Orders**
   <table role="presentation">
   <tr>
     <td align="center">
@@ -104,8 +101,7 @@ The following schema represents the structure of the database used in the Invent
   </tr>
 </table>
 
-
-- **Update Order**
+**Update Order**
   <table role="presentation">
   <tr>
     <td align="center">
