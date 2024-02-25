@@ -105,7 +105,7 @@ The following schema represents the structure of the database used in the Invent
 </table>
 
 
-- **Update order**
+- **Update Order**
   <table role="presentation">
   <tr>
     <td align="center">
@@ -119,21 +119,6 @@ The following schema represents the structure of the database used in the Invent
         <td align="center">
   <img width="700" alt="Screenshot 2024-02-25 at 11 48 23 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/d9ce0672-cdc0-4d19-8d32-c616feddfc4d">
       <br>order after update
-    </td>
-  </tr>
-</table>
-
-
-- **Get All Orders**
-  <table role="presentation">
-  <tr>
-    <td align="center">
-      <img width="700" alt="Screenshot 2024-02-25 at 11 45 02 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/493359e3-eff1-42a2-bbcc-915baaa4c97e">
-      <br>Call all orders
-    </td>
-    <td align="center">
-      <img width="700" alt="Screenshot 2024-02-25 at 11 45 28 AM" src="https://github.com/Afrah-saleh/IMS_project/assets/147046034/e63cece3-21ad-4b74-ab82-04f09526b93f">
-      <br>Orders in postgress
     </td>
   </tr>
 </table>
