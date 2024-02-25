@@ -3,15 +3,23 @@
 ## Introduction
 The Inventory Management System (IMS) is a comprehensive tool designed to help businesses and inventory managers maintain and track their inventory, manage customer orders, and streamline their product management processes. Built with efficiency and usability in mind, our IMS offers a robust solution for optimizing stock levels and enhancing operational workflows.
 
-## App statement
+*******************************************
+## APP STATMENT
+*******************************************
 An app that helps businesses and inventory managers who want to streamline inventory operations and optimize stock levels by tracking products and managing orders effortlessly.
 
-## Features
+
+*******************************************
+## FEATURES
+*******************************************
 - **Product Management**: Efficiently manage your product lifecycle by adding, viewing, updating, and deleting inventory items.
 - **Order Processing**: Seamlessly create and manage orders, ensuring customer satisfaction.
 - **Customer Management**: Maintain a central repository of customer information and track their orders.
 
-## Database Schema
+
+*******************************************
+## DATABASE SCHEME
+*******************************************
 The following schema represents the structure of the database used in the Inventory Management System:
 
 ### Customers Table
@@ -37,10 +45,13 @@ The following schema represents the structure of the database used in the Invent
 |-------------------|------------------|------------------|
 | order_id          | UUID             | Primary Key      |
 | customer_id       | UUID             | Foreign Key      |
+| product_id        | UUID             | Foreign Key      |
 | order_date        | Date             |                  |
 | status            | String           |                  |
   
-## Technologies Used
+*******************************************
+## TECHNOLOGY USED
+*******************************************
 - **Backend**: Swift with the Vapor framework to create a reliable and scalable server-side application.
 - **Database**: PostgreSQL for robust, enterprise-grade database management.
 - **Frontend:** (If applicable)
