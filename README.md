@@ -35,8 +35,8 @@ The following schema represents the structure of the database used in the Invent
 - status (String)
   
 ## Technologies Used
-- **Backend:** Swift, Vapor framework
-- **Database:** PostgreSQL
+- **Backend**: Swift with the Vapor framework to create a reliable and scalable server-side application.
+- **Database**: PostgreSQL for robust, enterprise-grade database management.
 - **Frontend:** (If applicable)
 
 *******************************************
