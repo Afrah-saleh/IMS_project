@@ -57,6 +57,5 @@ The following schema represents the structure of the database used in the Invent
 1. Start the server: `swift run`
 2. Access the application in your web browser: `http://localhost:8080`
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request with any improvements or features you'd like to add.
+
 
