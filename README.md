@@ -14,6 +14,7 @@ An app that helps businesses and inventory managers who want to streamline inven
 ## Database Schema
 The following schema represents the structure of the database used in the Inventory Management System:
 
+
 ### Customers Table
 - customer_id (Primary Key, UUID)
 - name (String)
