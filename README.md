@@ -69,7 +69,7 @@ The following schema represents the structure of the database used in the Invent
   </tr>
 </table>
 
-**Delelt Producte**
+**Delete Producte**
 <table role="presentation">
   <tr>
     <td align="center">
